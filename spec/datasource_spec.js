@@ -1,7 +1,7 @@
 import {Datasource} from "../module";
 import Q from "q";
 
-describe('GenericDatasource', function() {
+describe('GroongaDatasource', function() {
     var ctx = {};
 
     beforeEach(function() {
