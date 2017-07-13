@@ -6,6 +6,6 @@ GroongaConfigCtrl.templateUrl = 'partials/config.html';
 
 export {
   GroongaDatasource as Datasource,
-  GroongaDatasourceQueryCtrl as QueryCtrl,
+  GroongaQueryCtrl as QueryCtrl,
   GroongaConfigCtrl as ConfigCtrl
 };
