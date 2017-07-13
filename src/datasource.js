@@ -33,7 +33,7 @@ export class GroongaDatasource {
 
   testDatasource() {
     return this.backendSrv.datasourceRequest({
-      url: this.url + '/',
+      url: this.url + '/d/status',
       method: 'GET',
       headers: this.headers
     }).then(response => {
